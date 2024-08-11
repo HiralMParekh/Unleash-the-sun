@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6e8eb5bce923f98a028ce744a3f85a75 {
+                #map_4add04592a2ed4ac82c7d8542ef29782 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,14 +39,14 @@
 <body>
     
     
-            <div class="folium-map" id="map_6e8eb5bce923f98a028ce744a3f85a75" ></div>
+            <div class="folium-map" id="map_4add04592a2ed4ac82c7d8542ef29782" ></div>
         
 </body>
 <script>
     
     
-            var map_6e8eb5bce923f98a028ce744a3f85a75 = L.map(
-                "map_6e8eb5bce923f98a028ce744a3f85a75",
+            var map_4add04592a2ed4ac82c7d8542ef29782 = L.map(
+                "map_4add04592a2ed4ac82c7d8542ef29782",
                 {
                     center: [23.0225, 72.5714],
                     crs: L.CRS.EPSG3857,
@@ -60,19 +60,19 @@
 
         
     
-            var tile_layer_6bc2c298e56d3d015a91d7c4b0f345da = L.tileLayer(
+            var tile_layer_3f9ea5e585f2a42f6f9fcd8931c4ed98 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_6bc2c298e56d3d015a91d7c4b0f345da.addTo(map_6e8eb5bce923f98a028ce744a3f85a75);
+            tile_layer_3f9ea5e585f2a42f6f9fcd8931c4ed98.addTo(map_4add04592a2ed4ac82c7d8542ef29782);
         
     
-            var polygon_10a6a812b5a811ca184a8c0f8aa1847e = L.polygon(
+            var polygon_15d1593e21c3ce5a7708f6849608f666 = L.polygon(
                 [[23.0225, 72.5714], [23.0345, 72.5563], [23.0111, 72.5984]],
                 {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_6e8eb5bce923f98a028ce744a3f85a75);
+            ).addTo(map_4add04592a2ed4ac82c7d8542ef29782);
         
 </script>
 </html>
